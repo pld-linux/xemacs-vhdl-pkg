@@ -1,0 +1,26 @@
+diff -Nur xemacs-vhdl-pkg-1.10/man/vhdl/vhdl-mode.texi xemacs-vhdl-pkg-1.10.new/man/vhdl/vhdl-mode.texi
+--- xemacs-vhdl-pkg-1.10/man/vhdl/vhdl-mode.texi	Mon Dec 13 10:13:30 1999
++++ xemacs-vhdl-pkg-1.10.new/man/vhdl/vhdl-mode.texi	Sun Mar 26 14:40:52 2000
+@@ -4,9 +4,21 @@
+ @comment %**start of header (This is for running Texinfo on a region)
+ @comment !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ 
+-@setfilename  vhdl-mode.info
++@setfilename  ../../info/vhdl-mode.info
+ @settitle     VHDL Mode Version 3 Documentation
+ @footnotestyle end
++
++
++@ifinfo
++@format
++@dircategory XEmacs Editor:
++@direntry
++* VHDL: (vhdl-mode).			A GNU Emacs mode for editing VHDL code.
++@end direntry
++@end format
++@end ifinfo
++
++
+ 
+ @comment !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ @comment @setchapternewpage odd !! we don't want blank pages !!
