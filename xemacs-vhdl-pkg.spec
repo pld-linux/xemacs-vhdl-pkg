@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Support for VHDL.
 
-%description -l pl 
+%description -l pl
 Wsparcie dla VHDL.
 
 %prep
@@ -35,7 +35,7 @@ cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 mv -f  $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/info/*.info* $RPM_BUILD_ROOT%{_infodir}
 rm -fr $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/info
 
-gzip -9nf lisp/vhdl/ChangeLog 
+gzip -9nf lisp/vhdl/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
