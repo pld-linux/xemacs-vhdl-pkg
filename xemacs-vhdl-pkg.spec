@@ -3,7 +3,7 @@ Summary(pl):	Wsparcie dla VHDL
 Name:		xemacs-vhdl-pkg
 %define 	srcname	vhdl
 Version:	1.19
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
