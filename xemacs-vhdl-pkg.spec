@@ -2,7 +2,7 @@ Summary:	Support for VHDL
 Summary(pl):	Support for VHDL
 Name:		xemacs-vhdl-pkg
 %define 	srcname	vhdl
-Version:	1.12
+Version:	1.13
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
