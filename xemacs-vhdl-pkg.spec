@@ -27,7 +27,8 @@ Wsparcie dla VHDL.
 %patch0 -p1
 
 %build
-(cd man/vhdl; awk '/^\\input texinfo/ {print FILENAME}' * | xargs makeinfo)
+cd man/vhdl
+awk '/^\\input texinfo/ {print FILENAME}' * | xargs makeinfo
 
 %install
 rm -rf $RPM_BUILD_ROOT
