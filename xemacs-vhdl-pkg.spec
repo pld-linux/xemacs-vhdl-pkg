@@ -10,9 +10,10 @@ Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 # Source0-md5:	2d97483e5af1f070dfe1d0b59b3e062d
 Patch0:		%{name}-info.patch
 URL:		http://www.xemacs.org/
-BuildArch:	noarch
-Conflicts:	xemacs-sumo
+BuildRequires:	texinfo
 Requires:	xemacs
+Conflicts:	xemacs-sumo
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -51,6 +52,6 @@ rm -fr $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc lisp/vhdl/ChangeLog
-%{_infodir}/*
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.el*
+%{_infodir}/*.info*
