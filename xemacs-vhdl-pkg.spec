@@ -2,12 +2,12 @@ Summary:	Support for VHDL
 Summary(pl):	Wsparcie dla VHDL
 Name:		xemacs-vhdl-pkg
 %define 	srcname	vhdl
-Version:	1.15
+Version:	1.18
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	3670d96619d49ae091326134aa3efc2f
+# Source0-md5:	6a38f9e4428754114593b94089c71943
 Patch0:		%{name}-info.patch
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
