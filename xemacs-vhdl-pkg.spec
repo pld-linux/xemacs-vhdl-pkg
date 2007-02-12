@@ -1,5 +1,5 @@
 Summary:	Support for VHDL
-Summary(pl.UTF-8):   Wsparcie dla VHDL
+Summary(pl.UTF-8):	Wsparcie dla VHDL
 Name:		xemacs-vhdl-pkg
 %define 	srcname	vhdl
 Version:	1.19
