@@ -24,7 +24,7 @@ Wsparcie dla VHDL.
 
 %prep
 %setup -q -c
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 cd man/vhdl
