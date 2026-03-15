@@ -2,14 +2,14 @@ Summary:	Support for VHDL
 Summary(pl.UTF-8):	Wsparcie dla VHDL
 Name:		xemacs-vhdl-pkg
 %define 	srcname	vhdl
-Version:	1.22
+Version:	1.24
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
-Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	0e5b0d091532895ad8e025cd73518835
+Source0:	http://ftp.xemacs.org/pub/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+# Source0-md5:	909f2026ef3bf0244c38fa1ccf83ab96
 Patch0:		%{name}-info.patch
-URL:		http://www.xemacs.org/
+URL:		https://www.xemacs.org/
 BuildRequires:	texinfo
 Requires:	xemacs
 Conflicts:	xemacs-sumo
